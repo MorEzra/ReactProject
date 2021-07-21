@@ -1,0 +1,44 @@
+.header {
+    background-color: #222;
+    background-image: url(/images/Header/city_desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50vh;
+    min-height: 375px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 70px;
+    color: white;
+    text-shadow: black 2px 2px 10px;
+}
+
+.header h2 {
+    font-size: 50px;
+    color: white;
+    text-shadow: black 2px 2px 10px;
+}
+
+@media screen and (max-width: 780px) {
+    .header {
+      background-position: center;
+      background-size: cover;
+    }
+
+    .header h1 {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .header h2 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+  }

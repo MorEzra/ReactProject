@@ -1,0 +1,64 @@
+.home {
+    width: 70%;
+    height: auto;
+}
+
+.home .login, .register {
+    height: 350px;
+    width: 49%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.vl {
+    border-left: 2px solid gainsboro;
+    height: 300px;
+    float: left;
+  }
+
+  .home h3 {
+    font-size: 16px;
+  }
+
+  .home h2 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .home hr {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px){
+    .home {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .vl {
+    display: none;
+  }
+
+  .home hr {
+    width: 100%;
+    display: inline;
+    border-top: 2px solid gainsboro;
+  }
+
+    .home .register {
+      height: 350px;
+      width: 100%;
+  }
+
+  .home .login {
+    height: 250px;
+    width: 100%;
+}
+  }

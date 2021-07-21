@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+.layout {
+    margin:0;
+    padding:0;
+    min-height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.layout> * {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.layout > main {
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}

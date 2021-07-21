@@ -1,0 +1,109 @@
+/* favorite BTN */
+@import './assets/favoriteBTN/css/style.css';
+
+.client .vacationsArea {
+    padding-right: 5%;
+    padding-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.client .vacationBox{
+    width: 23%;
+    height: auto;
+    text-align: left;
+    margin-bottom: 35px;
+    box-shadow: #00000040 0px 0px 7px;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    overflow: hidden;
+}
+
+.client h2 {
+    font-size: 22px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #E2264D;
+}
+
+.client .imageBox h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    bottom: 0;
+    text-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.client .imageBox img {
+    width: 100%
+}
+
+.client .vacationInfo {
+    width: 100%;
+    padding:5%;
+    min-height: 350px;
+    overflow-y: auto;
+}
+
+.client .vacationInfo .info{
+    height: 170px;
+    overflow-y: auto;
+}
+
+.client .vacationBox .imageBox{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+.client .vacationBox .imageBox button{
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 0px;
+    background: none;
+}
+
+.client .vacationBox .boxFooter{
+    width: 100%;
+    background-color: #ebebeb;
+    color: #E2264D;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.client .vacationBox .boxFooter h3{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+@media screen and (max-width:1600px){
+    .client .vacationBox{
+        width: 31%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .client .vacationBox{
+        width: 47%;
+    }
+}
+
+@media screen and (max-width:760px){
+    .client .vacationBox{
+        width: 95%;
+    }
+}

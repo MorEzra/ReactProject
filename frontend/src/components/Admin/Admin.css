@@ -1,0 +1,273 @@
+.admin .vacationsArea {
+    padding-right: 5%;
+    padding-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.admin button {
+    background-color: #ffffff00;
+    border: none;
+}
+
+.admin .addVacation {
+    display: flex;
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+.admin .heartIcon {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 3px;
+    margin-right: 5px;
+    color: #33186e;
+}
+
+.admin .numOfFollowers {
+    margin-bottom: 5px;
+}
+
+.admin .popUp {
+    width: 100%;
+    height: 100vh;
+    background-color:#00000070;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+
+.admin .popUp .modalContainer {
+    width: 45%;
+    height: 60%;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    z-index: 999;
+    padding: 1%;
+}
+
+.admin .closePopUp {
+    position: absolute;
+    display: flex;
+    align-self: flex-start;
+}
+
+.admin .inner {
+    width: 90%;
+    height: 90%;
+    margin: 3% 6%;
+}
+
+.admin .half {
+    width: 50%;
+    height: 90%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    justify-content: space-around;
+}
+
+.admin .inner label {
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.admin .inner button {
+    width: 100px;
+    height: 35px;
+    background-color: #E2264D;
+    border: none;
+    color: white;
+    font-weight: 400;
+    border-radius: 3px;
+    transition: ease-in-out 0.3s;
+}
+
+.admin .inner button:hover {
+    background-color: #ff597a;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.admin .inner .previewImg {
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    float: none;
+    margin: 0 auto;
+}
+
+.admin .inner .btn {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+}
+
+.admin .inner .previewImg img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* vacations */
+.admin .addVacation img {
+    margin-right: 7px;
+}
+
+.admin .vacationBox{
+    width: 23%;
+    height: auto;
+    text-align: left;
+    margin-bottom: 35px;
+    box-shadow: #00000040 0px 0px 7px;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    overflow: hidden;
+}
+
+.admin h2 {
+    font-size: 22px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #E2264D;
+}
+
+.admin .imageBox h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    bottom: 0;
+    text-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.admin .imageBox img {
+    width: 100%;
+}
+
+.admin .vacationInfo {
+    width: 100%;
+    padding:5%;
+    min-height: 330px;
+    overflow-y: auto;
+}
+
+.admin .vacationInfo .info{
+    height: 170px;
+    overflow-y: auto;
+}
+
+.admin .vacationBox .imageBox{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.admin .vacationBox .imageBox button{
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 0px;
+    background: none;
+}
+
+.admin textarea {
+    overflow-y: auto;
+}
+
+.admin .vacationBox .boxFooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ebebeb;
+    color: #E2264D;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 3.5%;
+    position: absolute;
+    bottom: 0;
+}
+
+.admin .vacationBox .boxFooter h3{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.administration{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.admin i {
+    color: #33186e;
+    margin-left: 12px;
+}
+
+.admin i span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.admin .custom-file-input{
+    display: none;
+}
+
+.admin label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1600px){
+    .admin .vacationBox{
+        width: 31%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .admin .popUp .modalContainer {
+        width: 50vw;
+        height: auto;
+        padding: 2%;
+    }
+
+    .admin .popUp .half {
+        flex-direction: row;
+        width: 100%;
+        height: 50%;
+        flex-wrap: wrap;
+    }
+
+    .admin .vacationBox{
+        width: 47%;
+    }
+}
+
+@media screen and (max-width:760px){
+    .admin .popUp .modalContainer {
+        width: 90vw;
+        padding: 4%;
+    }
+
+    .admin .vacationBox{
+        width: 95%;
+    }
+}

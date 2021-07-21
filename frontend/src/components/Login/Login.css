@@ -1,0 +1,38 @@
+.login > * {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.login > input {
+    font-size: 16px;
+    width: 200px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+.login > button {
+    font-size: 16px;
+    width: 100px;
+    height: 35px;
+    background-color: #E2264D;
+    border: none;
+    color: white;
+    font-weight: 400;
+    border-radius: 3px;
+    transition: ease-in-out 0.3s;
+}
+
+.login > button:hover {
+    background-color: #ff597a;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.login .noteContainer {
+    height: 10px;
+}
+
+.login .noteToUser {
+    color: red;
+    font-size: 14px;
+}
