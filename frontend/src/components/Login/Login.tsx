@@ -130,6 +130,9 @@ class Login extends Component<any, loginState> {
                     {this.state.isShowNote && <p className="noteToUser">{this.state.noteToUser}</p>}
                 </div>
 
+                <br />
+                <span>Demo user for your advantage:<br /><strong>Username:</strong>demo<br /> <strong>Password:</strong>demo123</span>
+
                 <Snackbar
                     anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
                     open={this.state.isShowSnackbar}
